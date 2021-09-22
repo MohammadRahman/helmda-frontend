@@ -1,0 +1,130 @@
+#privacy .header-container {
+    margin-top: 0px !important;
+    padding-top: 10px;
+}
+#privacy {
+    background: rgba(24, 24, 24, 1);
+}
+
+#policy-text {
+    margin-top: 60px;
+   margin-left: 30px;
+}
+#policy {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 142.6%;
+/* or 34px */
+color: rgba(255, 255, 255, 0.65);
+margin-left: 20px;
+
+}
+#policy-content {
+    display: grid;
+    padding: 30px 20px;
+white-space: pre-wrap;
+
+}
+#policy-content h1, #policy {
+    font-size: 2.125rem;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+}
+#policy-content h2 {
+    font-size: 1.65rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Roboto;
+    font-style: normal;
+}
+#policy-content h3 {
+    font-size: 1.35rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Roboto;
+}
+#policy-content ul {
+    font-size: 1rem;
+    list-style-type: disc;
+    line-height: 2;
+    color: rgba(255, 255, 255, 0.65);
+    margin-left: 15px;
+}
+#policy-content p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 142.6%;
+    color: rgba(255, 255, 255, 0.65);
+    width:100%;
+}
+#policy-content a{
+    text-decoration: underline;
+    color:rgba(255, 255, 255, 0.75);
+}
+#privacy #footer-btn, #privacy #know-more {
+    display: none;
+}
+#privacy .footer-background {
+    background:none;
+}
+#privacy #end {
+    grid-row: 4/5;
+}
+strong {
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.8);
+}
+@media only screen and (max-width:1000px) and (min-width: 320px) {
+    #policy-text {
+        margin-left:0px;
+    }
+    #policy-content {
+        display: block;
+        padding-left: 15px;
+        word-wrap: break-word;
+    }
+    #policy-content h1, #policy {
+        font-size:  1.625rem;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 0px;
+     
+    }
+    #policy {
+        margin-left: 15px;
+    }
+    #policy-content h2 {
+        font-size: 1.375rem;
+        margin-left: 0px;
+    }
+    #policy-content h3 {
+        font-size: 1.25rem;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: rgba(255, 255, 255, 0.65);
+        font-family: Roboto;
+    }
+    #policy-content ul {
+        font-size: 1rem;
+        list-style-type: disc;
+        line-height: 2;
+        color: rgba(255, 255, 255, 0.65);
+        margin-left: 15px;
+    }
+    #policy-content p {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        line-height: 2;
+    }
+}

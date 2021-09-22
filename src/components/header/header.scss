@@ -1,0 +1,98 @@
+.header-container {
+  display: flex;
+  width: 100%;
+
+  //   &.submenu .logo-container {
+  //     color: red;
+  //     // font-size: 30px;
+  //   }
+  //   &.submenu .icon-text {
+  //     color: red;
+  //     // font-size: 30px;
+  //   }
+
+  
+  //   .icon-cross {
+  //     position: absolute;
+  //     width: 27.21px;
+  //     height: 1.01px;
+  //     left: 773.71px;
+  //     top: 29.09px;
+  //     background: #323232;
+  //     transform: matrix(0.71, 0.7, -0.71, 0.71, 0, 0);
+  //   }
+
+  .icon-text {
+    /* Let’s Talk */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 178.6%;
+    margin-right: 20px;
+    /* or 25px */
+  }
+  .ellipse {
+    /* Ellipse 14 */
+    border-radius: 50%;
+    // newly added
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .menu-icon {
+      /* Shape */
+      //   position: absolute;
+      //   left: 16.67%;
+      //   right: 16.67%;
+      //   top: 23.33%;
+      //   bottom: 23.33%;
+      //   border: 1px solid #000000;
+
+      // newly added style
+    }
+    &.menu-icon:hover {
+      margin-left: 15px;
+    }
+  }
+  // svg {
+  //   &.rect:hover {
+  //     margin-right: 10px;
+  //   }
+  //   &.rect:hover {
+  //     margin-left: 10px;
+  //   }
+  // }
+}
+#menu {
+  display: inline;
+  margin-left: 8px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#logo {
+  height: 68px;
+  width: 112px;
+  left: 122px;
+  top: 15px;
+  border-radius: 0px;
+}
+#mobile-touch-link {
+  text-decoration: none;
+  color:unset;
+}
+#menu-btn svg rect,#menu-btn svg {
+  display:inline-block;
+ position: relative;
+}
+#header-arrow {
+  font-size: 14px;
+}
+#header-btn a{
+  text-decoration: none;
+ 
+}

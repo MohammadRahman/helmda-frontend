@@ -1,0 +1,25 @@
+#name {
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 142.6%;
+font-weight:700;
+/* identical to box height, or 26px */
+letter-spacing: 0.03em;
+color: #323232;
+}
+#role {
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.03em;
+text-align: left;
+color: rgba(50, 50, 50, 0.7);
+}

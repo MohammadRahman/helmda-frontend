@@ -1,0 +1,56 @@
+.section-1 {
+
+  background: url("https://raw.githubusercontent.com/wazebase/project-images/main/helmda/backgrounds/mainPage/banner.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+ #title-div {
+   display:grid;
+   grid-template-rows: 1fr 1fr;
+   margin-top:149px;
+ }
+  .second-title, .title-first {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 153px;
+    line-height: 97.6%;
+    /* or 149px */
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 149px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #ffffff;
+
+  }
+  .second-title{
+  
+  position: relative;
+ left: 130px;
+}
+.sub-content {
+  width: 40%;
+ margin-top: 50px;
+ margin-left: 50px;
+ justify-self: end;
+ grid-row: 2/3;
+}
+  .sub-text {
+ 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 142.6%;
+    /* or 20px */
+
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+.submenu {
+  background: #ffffff;
+  z-index: 5;
+}

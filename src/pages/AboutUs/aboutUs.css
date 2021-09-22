@@ -1,0 +1,42 @@
+#container {
+   background-color:  rgba(255, 255, 255, 1);
+   background: url("https://raw.githubusercontent.com/wazebase/project-images/main/helmda/backgrounds/mainPage/about.webp"),url('https://raw.githubusercontent.com/wazebase/project-images/main/helmda/backgrounds/mainPage/team.svg');
+   background-repeat: no-repeat;
+  background-position: top right,0px 2950px;
+}
+#intro-img {
+border-radius: 0px;
+height: 411px;
+width: 1174px;
+border-radius: 0px;
+
+}
+#mission-img {
+height: 421px;
+width: 506px;
+left: 120px;
+top: 1668px;
+border-radius: 0px;
+
+}
+#mission p {
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(50, 50, 50, 0.7);
+}
+#values p {
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+

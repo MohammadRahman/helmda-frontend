@@ -1,0 +1,21 @@
+.typography-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .text-style-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 153px;
+  }
+  .text-style-subTitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 142.6%;
+    /* or 20px */
+    color: rgba(255, 255, 255, 0.7);
+  }
+}

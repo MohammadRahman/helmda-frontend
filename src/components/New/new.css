@@ -1,0 +1,46 @@
+#news-name{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 156.6%;
+    /* identical to box height, or 47px */
+    
+    
+
+}
+#news-text {
+    margin-top: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 156.6%;
+    white-space: pre-wrap;
+    text-align: left;
+    /* or 22px */
+    
+    
+
+    
+}
+#news-date {
+    margin-top: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 156.6%;
+    /* or 22px */
+    
+}
+
+.button-div {
+    margin-top: 40px;
+    display: inline-flex;
+    align-items: center;
+}
+.more-news {
+    margin-bottom: 0px;
+    margin-right: 8px;
+}

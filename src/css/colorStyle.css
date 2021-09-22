@@ -1,0 +1,104 @@
+  /* .menu-icon-1 {
+    background:rgba(50, 50, 50, 1);
+    ;
+
+  
+  }
+  .ellipse-funnctional {
+    background: rgba(50, 50, 50, 1);
+  }
+  .ellipse-funnctional i {
+    color: white
+  }
+  .header-container .icon-text {
+    color: rgba(50, 50, 50, 1);
+  }
+  #menu-btn svg rect {
+   fill: rgba(50, 50, 50, 1);
+  }
+  .menu-icon-2 {
+    background: #ffffff;
+  }
+  #menu {
+    color:rgba(50, 50, 50, 1);
+    ;
+  }
+  #icon-text {
+    color: #ffffff;
+  }
+  .ellipse {
+
+   color: black;
+    background: rgba(50, 50, 50, 1); 
+  }
+*/
+
+/*white*/
+/*
+#menu {
+    color: white
+  }
+ 
+  .menu-icon-1 {
+    background: #ffffff;
+  
+  }
+  .menu-icon-2 {
+    background: #ffffff;
+  }
+  .icon-text {
+  color: #ffffff;
+  }
+  .ellipse {
+    background: #ffffff;
+    color: white;
+  }
+ */
+  .whiteColor {
+    color: white;
+  }
+  .blackColor {
+    color: #323232;
+  }
+  .whiteBack {
+    background: white;
+  }
+  .blackBack {
+    background: black;
+  }
+  .whiteArrow {
+    color: white 
+  }
+  .blackArrow {
+    color: black
+  }
+  
+.whiteFooter{
+    color:rgba(255, 255, 255, 0.7);
+}
+.whiteBorderTop{
+    border-top: 5px solid white;
+}
+.whiteBorderBottom{
+    border-bottom: 5px solid white;
+}
+.whiteInput {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  ;
+}
+.blackFooter {
+ color: rgba(50, 50, 50, 0.7);
+
+}
+.blackBorderTop{
+  border-top: 5px solid rgba(50, 50, 50, 1);
+  ;
+}
+.blackBorderBottom{
+  border-bottom: 5px solid  rgba(50, 50, 50, 1);
+  ;
+}
+.blackInput {
+  border-bottom: 1px solid rgba(50, 50, 50, 0.2);
+
+}

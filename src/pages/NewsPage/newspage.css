@@ -1,0 +1,60 @@
+#newspage-container {
+    width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+    top: 0;
+  left: 0;
+    background: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://raw.githubusercontent.com/wazebase/project-images/main/helmda/backgrounds/mainPage/get-in-touch.webp");
+  background-position: right top;
+  background-size: 100%;
+}
+.read-more {
+    border:none;
+    background: none;
+    font-style: bold;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+#newspage-container #news-content {
+margin-top: 150px;
+margin-bottom: 150px;
+}
+#newspage-container #news-content #topic-img {
+    justify-items: start;
+    margin-left: 50px;
+}
+#newspage-container #footer {
+    padding-left: 50px;
+}
+@media only screen and (min-width: 1000px) {
+#newspage-container .header-container #logo {
+    margin-left: 50px !important;
+}
+}
+@media only screen and (min-width: 640px) and (max-width:1000px) {
+    #newspage-container #news-content #topic-img {
+        margin-left:0px;
+    }
+    #newspage-container #news-content {
+        padding: 30px;
+    }
+    #newspage-container #footer {
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width:640px) {
+    #newspage-container #news-content #topic-img {
+        margin-left:0px;
+    }
+    #newspage-container #news-content {
+        padding: 15px;
+    }
+    #newspage-container #footer {
+        padding-left: 15px;
+    }
+}

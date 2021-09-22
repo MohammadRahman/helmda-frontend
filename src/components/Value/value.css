@@ -1,0 +1,23 @@
+#value-title-div h3 {
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 47px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(50, 50, 50, 1);
+}
+#value-content-div {
+    border-top: 1px dashed #323232;
+}
+/*#content-div p {
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(50, 50, 50, 0.7);
+}*/

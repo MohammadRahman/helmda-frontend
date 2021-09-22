@@ -1,0 +1,187 @@
+body, html {
+    height: 100%;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: min-content .3fr .15fr .2fr .3fr ;
+    grid-gap: 20px;
+    grid-template-columns: 6em auto;
+}
+#title-div {
+    grid: unset;
+   
+}
+/* grid for intro*/
+.header-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr .75fr;
+    margin-top: 20px;
+    margin-left: 0px;
+    align-items: center;
+    grid-column:2/3;
+}
+#menu-btn {
+    justify-self: center;
+}
+#menu {
+    margin-left: 20px;
+}
+#header-btn {
+    grid-column:3/4;
+    grid-row:1/2;
+    display: inline;
+}
+
+#intro-block {
+    display: grid;
+    grid: 1fr 1fr/1fr 1fr;
+    grid-row: 2/3;
+    grid-column:2/3;
+}
+#intro-block img {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 100px;
+}
+#intro {
+    margin-top: 20px;
+    display: grid;
+    grid-row-gap: 30px;
+    grid: 0.5fr 1fr/1fr 1fr;
+    grid-row: 1/2;
+    grid-column: 1/3;
+}
+#intro #title-div {
+    grid-column: 1/3;
+}
+#intro #title-div h1 {
+    color:rgba(50, 50, 50, 1);
+
+}
+#intro #content-div {
+    display: grid;
+    grid-template-columns: min-content auto;
+    grid-column-gap:30px;
+}
+#intro #content-div p {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+#intro #content-div svg {
+    margin-top: 28px;
+}
+#title-div h1 {
+    margin:0;
+}
+/*grid for mission*/
+#mission-block {
+    display: grid;
+    grid-template-columns: .8fr 1fr;
+    grid-row: 3/4;
+    grid-column:2/3;
+}
+#mission h1 {
+    margin-bottom: 30px;
+}
+#mission p {
+    margin-top: 10px;
+}
+#mission #title-div {
+    margin-top: 50px;
+}
+#mission {
+   
+    align-items: center;
+    justify-content: center;
+}
+#mission #content-div {
+    width:90%;
+}
+/*grid for values */
+#values-block {
+    display: grid;
+    grid-row:4/5;
+    grid-column:2/3;
+    grid-template-rows: min-content 1fr;
+}
+#values {
+    margin-top: 10px;
+    grid-column: 1/-1;
+   
+}
+#values #title-div {
+    margin-top: 10px;
+}
+#values-list {
+
+    padding-right: 180px;
+}
+#values h1 {
+    margin-bottom: 40px;
+}
+#value-title-div h3 {
+    margin-bottom: 10px;
+}
+#value-content-div p {
+    margin-top: 10px;
+}
+#values p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width:58%
+}
+#values-list {
+    display: grid;
+    grid: 1fr 1fr/ repeat(3,1fr);
+    grid-gap: 84px;
+}
+#values-list div {
+  justify-self: center;
+}
+/*grid for team*/
+#team-block {
+    display: grid;
+    grid-row:5/6;
+    grid-column:2/3;
+}
+#team {
+    margin-top: 100px;
+    grid-column: 1/-1;
+}
+#team #content-div {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    align-content: center;
+    grid-column-gap: 46px;
+}
+#team #content-div p {
+    width: 50%;
+    margin-top: -27px;
+}
+#team-members {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 60px;
+    display: grid;
+    grid: repeat(5,1fr)/1fr 1fr;
+    grid-row-gap: 50px;
+}
+#team-members div {
+    justify-self: center;
+    align-self: center;
+    text-align: end;
+}
+#role {
+    text-align: end;
+}
+
+#mikhail,#viktor,#maria,#vera,#mohammad {
+    margin-top: 176px;
+}
+#container #footer {
+    padding-left: 0px;
+}

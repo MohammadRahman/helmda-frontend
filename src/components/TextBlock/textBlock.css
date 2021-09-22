@@ -1,0 +1,89 @@
+h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 82px;
+    line-height: 106.6%;
+    /* or 87px */
+    
+    
+    color: #696767;
+}
+p {
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(50, 50, 50, 0.7);
+
+}
+#mission h1, #values h1 {
+ 
+        font-size: 82px;
+       line-height: 94.6%;
+       /* identical to box height, or 78px */
+       
+       
+       color: #323232;
+       
+}
+/*intro styles*/
+#intro #content-div svg {
+    background: rgba(50, 50, 50, 1);
+    height: 5px;
+    width: 115px;
+    border-radius: 0px;
+    margin-top: 10px;
+}
+#intro #content-div p {
+font-weight: normal;
+font-size: 18px;
+line-height: 148%;
+color: rgba(50, 50, 50, 0.7);
+}
+
+/*values block styles*/ 
+
+#team #title-div h1{
+    font-size: 82px;
+    line-height: 94.6%;
+    /* identical to box height, or 78px */
+    
+    
+    color: #323232;
+    
+}
+ #team #content-div p {
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(50, 50, 50, 0.7);
+}
+
+#value-content-div p {
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 156.6%;
+/* or 22px */
+
+
+color: rgba(50, 50, 50, 0.7);
+}
+#value-title-div p {
+    font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 156.6%;
+/* identical to box height, or 47px */
+
+
+color: #323232;
+}

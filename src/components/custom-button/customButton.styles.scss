@@ -1,0 +1,19 @@
+.ellipse-funnctional {
+  /* Ellipse 14 */
+  width: 49px;
+  height: 49px;
+  top: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+  // newly added
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 5;
+}
+#button-arrow {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}

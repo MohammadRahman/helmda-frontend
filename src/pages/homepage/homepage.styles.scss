@@ -1,0 +1,591 @@
+
+ 
+ .animation{
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+ }
+ .animation-menu {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  z-index: 999;
+  
+ }
+ .animation div {
+   border: 1px solid black;
+   background-color: rgba(0,0,255,.8);
+ }
+
+#menu-div .header-container .logo-container {
+  margin-left: 0px
+}
+#homepage-container {
+  background: rgba(24, 24, 24, 1);
+}
+.russian-box {
+  background: url("https://raw.githubusercontent.com/wazebase/project-images/main/helmda/backgrounds/mainPage/man.webp");
+}
+.product {
+  background: url('https://raw.githubusercontent.com/wazebase/project-images/main/helmda/backgrounds/mainPage/ball.svg');
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+#news {
+  background: url("https://raw.githubusercontent.com/wazebase/project-images/main/helmda/backgrounds/mainPage/news.webp");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+.footer-background {
+  background: url("https://raw.githubusercontent.com/wazebase/project-images/main/helmda/backgrounds/mainPage/footer.svg");
+  background-repeat: no-repeat;
+  background-position: -30px -70px;
+}
+
+#problems-img {
+  position: relative;
+  left: -268px;
+  height: 535px;
+  width: 768px;
+
+  border-radius: 0px;
+}
+
+.about {
+  .about-us-text {
+    font-family: Roboto;
+    font-size: 82px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    /* or 115px */
+  }
+  .rectangle-10 {
+    /* Rectangle 10 */
+    // background: rgba(255, 255, 255, 0.9);
+    color: black;
+  }
+  &.abour-small-arrow:hover {
+    margin-right: 15px;
+  }
+  .typography {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 148%;
+    /* or 27px */
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 27px;
+    letter-spacing: 0em;
+    font-weight: 300;
+  }
+  .ellipse-15 {
+    /* Ellipse 15 */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    background: red;
+    .ellipse-15-icon {
+      color: black;
+    }
+  }
+  .typography-about-company {
+    /* More about company */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 178.6%;
+    /* or 25px */
+
+    // color: #FFFFFF;
+    color: #ffffff;
+  }
+}
+.typography-bold {
+  #empty-letter {
+    color: black;
+    text-shadow: -2px 2px 0 white, 2px 2px 0 white, 2px -2px 0 white,
+      -2px -2px 0 white;
+  }
+  .bold-1 {
+    /* THE FUTURE IS ALREADY HERE */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10vw;
+    line-height: 142.6%;
+    /* identical to box height, or 201px */
+    letter-spacing: 0.02em;
+    // color: #ffffff;
+    color: white;
+    mix-blend-mode: normal;
+  }
+}
+.frame-55 {
+  // google chrome image
+  .image-google {
+    // .image {
+    //   width: 100%;
+    //   height: 100%;
+    //   background-position: center;
+    //   background-size: cover;
+    //   background-repeat: no-repeat;
+    //   background: url("../../images/1\ -\ Google\ Chrome\ 2021-02-27\ 20.28.png");
+    // }
+  }
+
+  // animated-slider
+
+  .problem-with-the-world {
+    /* Problems of the modern world */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 82px;
+    line-height: 106%;
+    /* or 87px */
+    // color: #FFFFFF;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  .frame-55-hr {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.9);
+    // color: black;
+  }
+  .frame-55-subtext {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 156%;
+    // background: red;
+    /* or 28px */
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .number-one {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 156.6%;
+    /* identical to box height, or 19px */
+
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .number-text-title-one {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 156.6%;
+    /* identical to box height, or 47px */
+    // color: #FFFFFF;
+    color: #ffffff;
+  }
+  .number-text-subtitle-one {
+    /* Everyday meducal staff and our population should use special devices for the health security */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 156.6%;
+    /* or 22px */
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .number-two {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 156.6%;
+    /* identical to box height, or 19px */
+
+    // color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .number-text-title-two {
+    /* No universal helment */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 156.6%;
+    /* identical to box height, or 47px */
+    // color: #FFFFFF;
+    color: #ffffff;
+  }
+  .number-text-subtitle-two {
+    /* Many life activities require to wear helmet for specific purposes */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 156.6%;
+    /* or 22px */
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .number-three {
+    /* 03 */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 156.6%;
+    /* identical to box height, or 19px */
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .number-text-title-three {
+    /* Poor environment */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 156.6%;
+    /* identical to box height, or 47px */
+    // color: #FFFFFF;
+    color: #ffffff;
+  }
+  .number-text-subtitle-three {
+    /* There are a lot of polluted cities and hesistate worcplaces without solution for suitable protection */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 156.6%;
+    /* or 22px */
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .number-four {
+    /* 04 */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 156.6%;
+    /* identical to box height, or 19px */
+
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .number-text-title-four {
+    /* No sens of safety and secutity */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 120.6%;
+    /* or 36px */
+
+    // color: #ffffff;
+    color: #ffffff;
+  }
+  .number-text-subtitle-four {
+    /* Current devices do not provide a holistic solution. Need to use many devices */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 156.6%;
+    /* or 22px */
+
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .frame-55-typography-bold {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 82px;
+    line-height: 94.6%;
+    /* or 78px */
+
+    color: #ffffff;
+
+    position: relative;
+    top: -40px;
+  }
+  #pr-title {
+    border-bottom: 4px solid rgba(255, 255, 255, 0.9);
+    margin-bottom: 40px;
+  }
+  .frame-55-typography-bold .bold-1 {
+    color: #ffffff;
+  }
+  .rectangle-40 {
+    background: rgba(255, 255, 255, 0.9);
+  }
+  .frame-55-typography-sub {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 130%;
+    /* or 39px */
+
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .russian-box {
+    /* 127 [преобразованный]56789-04 1 */
+  }
+
+  .russian-box img {
+    height: 100%;
+    z-index: 999;
+  }
+  .products-titile-helmet {
+    /* Helmet */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 156.6%;
+    /* identical to box height, or 47px */
+
+    color: #ffffff;
+  }
+  .products-hr-helmet {
+    border: 1px dashed #ffffff;
+  }
+  .products-suibtitle-helmet {
+    /* There are a lot of polluted cities and hesistate worcplaces without solution for suitable protection */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 156.6%;
+    /* or 22px */
+
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .products-titile-gloves {
+    /* Gloves */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 156.6%;
+    /* identical to box height, or 47px */
+    color: #ffffff;
+  }
+  .products-hr-gloves {
+    border: 1px dashed #ffffff;
+  }
+  .products-suibtitle-gloves {
+    /* There are a lot of polluted cities and hesistate worcplaces without solution for suitable protection */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 156.6%;
+    /* or 22px */
+
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .products-titile-bodysuits {
+    /* Bodysuit */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 156.6%;
+    /* identical to box height, or 47px */
+
+    color: #ffffff;
+  }
+  .products-hr-bodysuits {
+    /* Line 6 */
+    // border: 1px dashed #FFFFFF;
+    border: 1px dashed #ffffff;
+  }
+  .products-suibtitle-bidysuits {
+    /* There are a lot of polluted cities and hesistate worcplaces without solution for suitable protection */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 156.6%;
+    /* or 22px */
+
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .products-hr-boots {
+    /* Line 6 */
+    // border: 1px dashed #FFFFFF;
+    border: 1px dashed #ffffff;
+  }
+  .products-titile-boots {
+    /* Boots */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 156.6%;
+    /* identical to box height, or 47px */
+
+    color: #ffffff;
+  }
+
+  .products-suibtitle-boots {
+    /* There are a lot of polluted cities and hesistate worcplaces without solution for suitable protection */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 156.6%;
+    /* or 22px */
+
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+
+#news-title {
+  font-family: Roboto;
+  font-size: 82px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+/*header color style*/
+.slider {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  .hide {
+    .slide {
+      // width: 20%;
+      left: 0;
+      width: 288px;
+      height: 100%;
+      background: #0e2080;
+      position: fixed;
+      z-index: 5;
+      top: 0;
+    }
+  }
+}
+// .slide {
+//   top: 0;
+//   // left: 0;
+//   width: 10%;
+//   height: 100%;
+//   position: fixed;
+//   z-index: 5;
+//   background: red;
+
+//   transform: translateY(100%);
+// }
+.slide-one {
+  top: 0;
+  // left: 21%;
+  // width: 20%;
+  width: 288px;
+  left: 289px;
+  height: 100%;
+  position: fixed;
+  z-index: 5;
+  background: #0e2080;
+  transform: translateY(100%);
+}
+.slide-two {
+  top: 0;
+  // left: 42%;
+  left: 557px;
+  // width: 20%;
+  width: 288px;
+  height: 100%;
+  position: fixed;
+  z-index: 5;
+  background: #0e2080;
+  transform: translateY(100%);
+}
+.slide-three {
+  top: 0;
+  left: 865px;
+  // width: 20%;
+  width: 288px;
+  // left: 63%;
+  // width: 20%;
+  height: 100%;
+  position: fixed;
+  z-index: 5;
+  background: #0e2080;
+  transform: translateY(100%);
+}
+.slide-four {
+  top: 0;
+  // left: 82%;
+  left: 1153px;
+  width: 288px;
+  // width: 20%;
+  height: 100%;
+  position: fixed;
+  z-index: 5;
+  background: #0e2080;
+  transform: translateY(100%);
+}
+.slide-five {
+  top: 0;
+  // left: 98%;
+  left: 1441;
+  // width: 20%;
+  width: 288px;
+  height: 100%;
+  position: fixed;
+  z-index: 5;
+  background: #0e2080;
+  transform: translateY(100%);
+}
+// .slide-six {
+//   top: 0;
+//   left: 66%;
+//   width: 10%;
+//   height: 100%;
+//   position: fixed;
+//   z-index: 5;
+//   background: red;
+
+//   transform: translateY(100%);
+// }
+// .slide-seven {
+//   top: 0;
+//   left: 77%;
+//   width: 10%;
+//   height: 100%;
+//   position: fixed;
+//   z-index: 5;
+//   background: red;
+
+//   transform: translateY(100%);
+// }
+// .slide-eight {
+//   top: 0;
+//   left: 88%;
+//   width: 10%;
+//   height: 100%;
+//   position: fixed;
+//   z-index: 5;
+//   background: red;
+
+//   transform: translateY(100%);
+// }
+// .slide-nine {
+//   top: 0;
+//   left: 99%;
+//   width: 10%;
+//   height: 100%;
+//   position: fixed;
+//   z-index: 5;
+//   background: red;
+
+//   transform: translateY(100%);
+// }
